@@ -1,3 +1,51 @@
+import ReactLogo from '../assets/react-logo.svg'
+import TypescriptLogo from '../assets/typescript-logo.svg'
+import TailwindLogo from '../assets/tailwind-logo.svg'
+import GithubLogo from '../assets/github-dev-logo.svg'
+import NodeLogo from '../assets/node-logo.svg'
+
+
+export interface SkillsProps {
+  id: number
+  link: string
+  image: string
+  name: string
+}
+
+
+export const skillsContent: SkillsProps[] = [
+  {
+    id: 1,
+    link: 'https://react.dev/',
+    image: ReactLogo,
+    name: 'React'
+  },
+  {
+    id: 2,
+    link: 'https://www.typescriptlang.org/',
+    image: TypescriptLogo,
+    name: 'TypeScript'
+  },
+  {
+    id: 3,
+    link: 'https://nodejs.org/en',
+    image: NodeLogo,
+    name: 'Node'
+  },
+  {
+    id: 4,
+    link: 'https://tailwindcss.com/',
+    image: TailwindLogo,
+    name: 'Tailwindcss'
+  },
+  {
+    id: 5,
+    link: 'https://github.com/',
+    image: GithubLogo,
+    name: 'Git/Github'
+  },
+]
+
 export interface JobsProps {
   id: number
   title: string

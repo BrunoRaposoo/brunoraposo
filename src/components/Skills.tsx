@@ -1,11 +1,11 @@
 'use client'
 
-import { SkillsProps } from '@/app/page'
 import { SkillContent } from './SkillsContent'
 import { Reveal } from './Reveal'
 import TypeIt from 'typeit-react'
 import { RevealTitle } from './Reveal-title'
 import { RevealProjects } from './Reveal-projects'
+import { SkillsProps } from '@/constants/mock'
 
 export interface listSkillsProps {
   skills: SkillsProps[]
