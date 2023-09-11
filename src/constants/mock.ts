@@ -36,7 +36,7 @@ export const skillsContent: SkillsProps[] = [
     id: 4,
     link: 'https://tailwindcss.com/',
     image: TailwindLogo,
-    name: 'Tailwindcss'
+    name: 'Tailwind CSS'
   },
   {
     id: 5,

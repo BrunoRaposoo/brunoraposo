@@ -63,7 +63,7 @@ export default function NavBar() {
           whileHover={{y: -2}}
           whileTap={{scale: 1.1}}
         >
-            <Image src={githubLogo} alt='Github Logo'/>
+            <Image src={githubLogo} alt='Github Logo' className='w-6 h-6'/>
         </motion.a>
           <motion.a 
             href="https://www.linkedin.com/in/bruno-raposo-dev/"
@@ -71,7 +71,7 @@ export default function NavBar() {
             whileHover={{y: -2}}
             whileTap={{scale: 1.1}}  
           >
-            <Image src={linkedinLogo} alt="Linkedin Logo" />
+            <Image src={linkedinLogo} alt="Linkedin Logo" className='w-6 h-6'/>
           </motion.a>
           <motion.a 
             href="https://wa.me/5561981299948"
@@ -79,7 +79,7 @@ export default function NavBar() {
             whileHover={{y: -2}}
             whileTap={{scale: 1.1}}  
           >
-            <Image src={whatsappLogo} alt='Whatsapp Logo' />
+            <Image src={whatsappLogo} alt='Whatsapp Logo' className='w-6 h-6' />
         </motion.a>
           <motion.a
             href="mailto:brunoraposounb@gmail.com"
@@ -87,7 +87,7 @@ export default function NavBar() {
             whileHover={{y: -2}}
             whileTap={{scale: 1.1}}  
           >
-            <Image src={gmailLogo} alt='Gmail logo' className='-translate-y-1' />
+            <Image src={gmailLogo} alt='Gmail logo' className='w-6' />
         </motion.a>
       </div>
       </nav>

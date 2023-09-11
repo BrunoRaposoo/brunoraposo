@@ -15,7 +15,7 @@ export function About() {
           <Image src={AstronautAboutPage} alt="Ilustração de um astronauta" className="animate-float" />
         </div>
       </RevealImage>
-      <div className='flex flex-col w-full h-full items-center justify-center'>
+      <div className='flex flex-col w-full h-full items-center justify-center space-y-6'>
         <RevealTitle>
           <h1 
             className="w-full font-alt text-5xl md:text-6xl text-gray-50">
@@ -42,7 +42,7 @@ export function About() {
           </p>
         </RevealParagraph>
       </div>
-      <div className="absolute right-0 top-1/3 h-[288px] w-[526px] -translate-y-1/2 rounded-full bg-purple-700 opacity-50 blur-full" />
+      <div className="relative right-0 -top-full h-[288px] w-[526px] -translate-y-1/2 rounded-full bg-purple-700 opacity-50 blur-full" />
     </section>
   )
 }

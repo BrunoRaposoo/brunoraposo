@@ -14,7 +14,7 @@ export interface listSkillsProps {
 export function Skills({skills}: listSkillsProps) {
   return (
     <section id='skills' className='w-full min-h-screen px-4 sm:px-8 md:px-16 lg:px-24 flex flex-col justify-center bg-gray-900 bg-[url(../assets/stars.svg)] bg-cover'>
-      <div className="absolute z-0 left-0 h-[288px] w-[526px] -translate-y-1/2 rounded-full bg-purple-700 opacity-50 blur-full" />
+      <div className="absolute z-0 right-0 h-[288px] w-[526px] -translate-y-1/2 rounded-full bg-purple-700 opacity-50 blur-full" />
       <RevealTitle>
           <h1 
             className="flex items-center justify-center mb-16 sm:mb-20 md:mb-24 font-alt text-5xl md:text-6xl text-gray-50">
